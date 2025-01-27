@@ -1,0 +1,53 @@
+a:visited{
+    background: blue;
+    color: white;
+}
+
+body{
+    background: cadetblue;
+}
+
+#wrapper{
+    margin: 0 auto;
+    background-color: white;
+    width: 800px;
+    height: 2000px;
+}
+
+header{
+    padding: 0px 0px 10px 0px;
+}
+
+#horzNav:hover {
+    display: block;
+    background: black;
+    color: white;
+}
+
+#para-1{
+    word-spacing: 10px;
+}
+
+#para-2{
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+#para-3:before{
+    content: "@@@@@@@@";
+}
+
+footer{
+    clear: both;
+    background: black;
+    color: white;
+}
+
+ol{
+    list-style: lower-latin;
+    list-style-position: outside;
+}
+
+#sidebar-list-2{
+    visibility: hidden;
+}
